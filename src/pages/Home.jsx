@@ -3,7 +3,6 @@ import { Search } from "../components/Search"
 
 export const Home = () => {
     const cards = new Array(15).fill('').map((_, i) => i)
-    console.log(cards)
 
     return (
         <>
